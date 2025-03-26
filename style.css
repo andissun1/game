@@ -56,3 +56,8 @@ html {
   .guessSubmit, button, input {
     font-family: inherit;
   }
+    
+    .guessSubmit, button {
+        cursor: pointer;
+    }
+
