@@ -66,14 +66,13 @@ function checkGuess() {
     }
   
     resetButton.parentNode.removeChild(resetButton);
-    lastResult.style.backgroundColor = "rgb(232,252,255)"
   
     guessField.disabled = false;
     guessSubmit.disabled = false;
     guessField.value = "";
     guessField.focus();
   
-    lastResult.style.backgroundColor = "white";
+    lastResult.style.backgroundColor = "rgb(232,252,255)";
   
     randomNumber = Math.floor(Math.random() * 100) + 1;
   }
