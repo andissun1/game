@@ -66,7 +66,7 @@ function checkGuess() {
     }
   
     resetButton.parentNode.removeChild(resetButton);
-    lastResult.parentNode.removeChild(lastResult)
+    lastResult.style.backgroundColor = "rgb(232,252,255)"
   
     guessField.disabled = false;
     guessSubmit.disabled = false;
