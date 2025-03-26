@@ -55,9 +55,4 @@ html {
 
   .guessSubmit, button, input {
     font-family: inherit;
-    border: 1px gray solid;
-    border-radius: 2px;
-  } 
-    button, input {
-        cursor: pointer;
-        background-color: light-gray;
+  }
